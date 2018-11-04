@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "scripts": {
+        "scripts": {
+            "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+            "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+            "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+            "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+        }
+    },
+    "devDependencies": {
+        "axios": "^0.17",
+        "bootstrap-sass": "^3.3.7",
+        "cross-env": "^5.1",
+        "jquery": "^3.2",
+        "laravel-mix": "^2.1.14",
+        "lodash": "^4.17.4",
+        "vue": "^2.5.7"
+    },
+    "dependencies": {
+        "gulp": "^4.0.0"
+    }
+}
